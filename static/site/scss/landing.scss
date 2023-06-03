@@ -1,0 +1,61 @@
+@font-face {
+    font-family: nintendo_NTLG;
+    src: url(/assets/nintendo_NTLG.woff),
+    url(/assets/nintendo_NTLG.woff2);
+}
+
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
+
+$colour-bg: rgb(200, 200, 219);
+$colour-container: rgb(114, 114, 123);
+
+$font-colour: black;
+$font-colour-container: white;
+
+$link-colour: #bfc8ea;
+
+body {
+    background-color: $colour-bg;/*-image: url('/assets/bg.png');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    font-family: nintendo_NTLG;
+    font-size: 16px;
+    color: $font-colour;
+
+    font-weight: normal !important;
+
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: $link-colour;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    height: 80%;
+    color: $font-colour-container;
+    background-color: $colour-container;
+
+    border-radius: 5px;
+
+    padding: 3%;
+}
+
+.center {
+    text-align: center;
+}
+
+.double-size {
+    font-size: 1.4em;
+}
+
+.extra-left-pad {
+    padding-left: 10%;
+}

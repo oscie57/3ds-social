@@ -1,0 +1,20 @@
+@font-face {
+    font-family: nintendo_NTLG;
+    src: url(/assets/nintendo_NTLG.woff),
+    url(/assets/nintendo_NTLG.woff2);
+}
+
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
+
+body {
+    background-color: rgb(200, 200, 219);/*-image: url('/assets/bg.png');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    font-family: nintendo_NTLG;
+    font-size: 16px;
+
+    font-weight: normal !important;
+}

@@ -1,0 +1,17 @@
+<div class="notification is-info">
+    You are signed in as <b>{{ username }}</b>.
+</div>
+
+<form action="" method="post" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        {{ form.current_password.label(class_="label") }} {{ form.current_password(class_="input") }}
+        <br>
+        <br>
+        {{ form.new_password1.label(class_="label") }} {{ form.new_password1(class_="input") }}
+        <br>
+        <br>
+        {{ form.new_password2.label(class_="label") }} {{ form.new_password2(class_="input") }}
+    <br>
+    <br>
+    <p>{{ form.complete(class_="button is-success") }}</p>
+</form>
